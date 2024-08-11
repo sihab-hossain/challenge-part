@@ -1,0 +1,99 @@
+.display-flex{
+    display: flex;
+}
+
+.challenge-part{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.challenge-title{
+    text-align: center;
+}
+.challenge-title p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: orangered;
+    letter-spacing: 4px;
+    margin: 0;
+}
+.challenge-title h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+.our-offer-list{
+    margin-top: 50px;
+    gap: 40px;
+    justify-content: center;
+}
+.image-and-price{
+    position: relative;
+}
+.prices{
+    position:absolute;
+    width: 120px;
+    height: 110px;
+    border-radius: 60%;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    right: 120px;
+    top: 120px;
+}
+.gym-items{
+    margin-top: 80px;
+}
+.gym-items h3{
+    text-align: center;
+    color: orangered;
+    font-size: 2rem;
+    margin: 0;
+}
+.gym-items li{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.entry-button{
+    margin: 10px 0 0 100px;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid orangered;
+    color: orangered;
+    cursor: pointer;
+}
+.entry-button:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.6s;
+}
+
+@media screen and (max-width: 556px){
+    .our-offer-list{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .challenge-title h1{
+        font-size: 2rem;
+    }
+    .entry-button{
+        margin-bottom: 50px;
+        margin-left: 120px;
+    }
+    .entry-button:hover{
+        background-color: orangered;
+        color: white;
+        transition: 0.6s;
+    }
+}
